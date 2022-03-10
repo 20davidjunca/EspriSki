@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- Referencia al meu CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">  
+    <title>EspriSki Village Resort</title>
+  </head>
+  <body>
+    <!--
+        MENÚ PRINCIPAL DE LA WEB
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu_pri">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="img-logo" src="img/espriski_logo.svg" alt="" width="30" height="24">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resort
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Habitacions</a></li>
+                  <li><a class="dropdown-item" href="#">Spa</a></li>
+                  <li><a class="dropdown-item" href="#">Restaurant</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Activitats
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Esquí</a></li>
+                  <li><a class="dropdown-item" href="#">Snowboard</a></li>
+                  <li><a class="dropdown-item" href="#">Raquetes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Preus</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Serveis
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Parking</a></li>
+                  <li><a class="dropdown-item" href="#">Guarda Esquís</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Actualitat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacta.html">Contacte</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+     
+    <div class="container-fluid" id="slider_home">
+        <div class="row">
+            <div class="col-12 no-padding">
+                <img class="img-fluid no-padding" src="img/espriski_slider_home_snowboard.jpg" alt="EspriSki Snowboarding">
+            </div>
+            <div id="ww_4be5647e2f916" v='1.20' loc='auto' a='{"t":"horizontal","lang":"es","ids":["wl955"],"cl_bkg":"#FFFFFF00","cl_font":"rgba(255,255,255,1)","cl_cloud":"rgba(242,242,242,1)","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial","el_whr":3}'><a href="https://weatherwidget.org/es/" id="ww_4be5647e2f916_u" target="_blank">Widget de tiempo para el sitio web de Weatherwidget.org</a></div><script async src="https://srv2.weatherwidget.org/js/?id=ww_4be5647e2f916"></script>
+            <div id="h1">
+              <h1>EspriSki</h1>
+              <h5>Village Resort</h5>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/espa.jpg" class="d-block w-100" alt="Spa">
+          <div class="carousel_text">SPA</div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/habitacion.jpg" class="d-block w-100" alt="Habitacions">
+          <div class="carousel_text">HABITACIONS</div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/restaurante.jpg" class="d-block w-100" alt="Restaurant">
+          <div class="carousel_text">RESTAURANT</div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Següent</span>
+      </button>
+    </div>
+
+    <hr>
+
+  <div id="contacta">
+    <h3>Contacta amb nosaltres</h3>
+    <form method="POST" action="">
+      <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Nom complet</label>
+      <input type="text" class="form-control" name="nom_complet" placeholder="Nom complet">
+    </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Telèfon</label>
+        <input type="tel" class="form-control" name="telefon" placeholder="Telèfon">
+      </div>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+      <input type="email" class="form-control" placeholder="E-mail">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Missatge</label>
+      <textarea class="form-control" rows="3"></textarea>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" required="required" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        He llegit i accepto la política de privacitat
+      </label>
+    </div><br>
+    <input type="submit" name="enviar" value="Envia">
+  </form>
+  </div>
+
+    <footer>
+      <div class="col-3">
+        <a class="navbar-brand" href="#">
+          <img class="img-logo" src="img/espriski_logo.svg" alt="" width="30" height="24">
+      </a>
+      <h2>Dades</h2>
+      <p>Adreça: Passeig de Sant Joan Bosco, 1, 17007</p>
+      <p>Telefón: 972 21 26 12</p>
+      <p>Mail: 20david.junca@espriusalt.cat</p>
+      </div>
+      <div class="col-3">
+        <a href="#"><h2 class="resort_footer">Resort</h2></a>
+        <a href="#"><p>Habitacions</p></a>
+        <a href="#"><p>Spa</p></a>
+        <a href="#"><p>Restaurant</p></a>
+        <a href="#"><h2 class="preus_footer">Preus</h2></a>
+      </div>
+      <div class="col-3">
+        <a href="#"><h2>Activitats</h2></a>
+        <a href="#"><p>Esquí</p></a>
+        <a href="#"><p>Snowboard</p></a>
+        <a href="#"><p>Raquetes</p></a>
+        <a href="#"><h2>Serveis</h2></a>
+        <a href="#"><p>Parking</p></a>
+        <a href="#"><p>Guarda Esquís</p></a>
+      </div>
+      <div class="col-3 xarxes">
+        <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Espri Ski</a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Espri_Ski</a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> @espri_ski</a>
+        <a href="https://web.whatsapp.com" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> espriu ski</a>
+      </div>
+    </footer>
+    <div id="bottom-footer">
+      <div class="col-12">
+        <a id="link_politica" href="politica.html" target="_blank">Salvador Espriu &copy; 2022 | Política de privacitat | Avís legal | Cookies</a>
+      </div>
+      <a href="#">
+        <div class="top_button">
+          <i id="top_button" class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+        </div>
+      </a>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
