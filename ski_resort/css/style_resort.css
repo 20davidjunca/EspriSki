@@ -227,7 +227,7 @@ footer div h2:hover, #link_politica:hover {
     }
 }
 /*COLUMNES MOBIL*/
-@media (min-width: 600px)
+@media (min-width: 600px) {
 .columnes {
     padding: 1rem;
     display: flex;
@@ -272,4 +272,5 @@ footer div h2:hover, #link_politica:hover {
 }
 .img {
     width: 100%;
+}
 }
