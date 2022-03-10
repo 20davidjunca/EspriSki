@@ -58,11 +58,12 @@ ul.navbar-nav {
     z-index: 1;
 }
 .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     margin-top: 12px !important;
 }
 .dropdown-menu a:hover {
-    color: rgba(0, 0, 0, 1) !important;
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: #000;
 }
 .img-logo {
     width: 40px;
@@ -171,4 +172,99 @@ footer div h2:hover, #link_politica:hover {
     color: #fff;
     /*background-color: rgba(255, 255, 255, 0.5);
     border-radius: 100%;*/
+}
+
+
+
+
+
+
+/*****SPA******/
+
+/*COLUMNES PC*/
+.columnes {
+    padding: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.columna_1 {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: justify;
+    display: flex;
+    flex-flow: column;
+    border: 1px dotted #033E6B;
+    border-radius: 10px;
+}
+.columna_1 img {
+    width: 70px;
+    height: 70px;
+    margin-left: 39%;
+}
+.columna_1 a {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 5px;
+    transition: border 0.5s ease-in-out, border-radius 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.columna_1 a:hover {
+    background: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.columna_1 h3 {
+    font-weight: 700;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+.columna_2 {
+    padding: 15px;
+}
+
+/*COLUMNES MOBIL*/
+.columnes {
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+.columna_1 {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: justify;
+    display: flex;
+    flex-flow: column;
+    border: 1px dotted #033E6B;
+    border-radius: 10px;
+}
+.columna_1 img {
+    width: 70px;
+    height: 70px;
+    margin-left: 39%;
+}
+.columna_1 a {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 5px;
+    transition: border 0.5s ease-in-out, border-radius 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.columna_1 a:hover {
+    background: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.columna_1 h3 {
+    font-weight: 700;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+.columna_2 {
+    padding: 15px;
 }
