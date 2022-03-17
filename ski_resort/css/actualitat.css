@@ -179,7 +179,7 @@ footer div h2:hover, #link_politica:hover {
     text-align: justify;
 }
 .noticia{
-    border:2px solid red;
+    border:2px solid black;
     margin:15px;
     padding:10px;
     border-radius:0px 0px 10px 10px;
@@ -188,7 +188,7 @@ footer div h2:hover, #link_politica:hover {
     margin:-10px;
     padding-left:10px;
     border-bottom:1px solid black;
-    background-color: red;
+    background-color: black;
     color:white;
     font-size: x-large;
     font-weight: 400;
