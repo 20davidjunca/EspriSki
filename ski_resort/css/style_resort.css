@@ -116,6 +116,7 @@ footer * {
 }
 #link_politica {
     color: #fff !important;
+    background-color: #000;
     text-decoration: none !important;
 }
 footer div h2:hover, #link_politica:hover {
@@ -142,8 +143,8 @@ footer div h2:hover, #link_politica:hover {
 #bottom-footer {
     margin: 0;
     padding: 10px;
-    background-color: #000;
-    color: #fff;
+    background-color: #000 !important;
+    color: #fff !important;
 }
 
 #carouselExampleControls {
@@ -173,8 +174,6 @@ footer div h2:hover, #link_politica:hover {
     /*background-color: rgba(255, 255, 255, 0.5);
     border-radius: 100%;*/
 }
-
-
 
 
 
