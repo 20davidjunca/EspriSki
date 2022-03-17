@@ -117,7 +117,7 @@ footer * {
     color: #fff !important;
     text-decoration: none !important;
 }
-footer div h2:hover, #link_politica:hover {
+footer div a p:hover, #link_politica:hover {
     opacity: 0.5;
 }
 .resort_footer {
