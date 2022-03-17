@@ -196,7 +196,6 @@ footer div h2:hover, #link_politica:hover {
 .paisos_1 img {
     width: 70px;
     height: 70px;
-    border-radius: 100px;
 }
 .paisos_1 a {
     text-decoration: none;
@@ -239,8 +238,8 @@ footer div h2:hover, #link_politica:hover {
     border-radius: 10px;
 }
 .paisos_1 img {
-    width: 220px;
-    height: 220px;
+    width: 350px;
+    height: 350px;
 }
 .paisos_1 a {
     text-decoration: none;
