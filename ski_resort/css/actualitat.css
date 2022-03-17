@@ -178,3 +178,23 @@ footer div h2:hover, #link_politica:hover {
     margin: 20px;
     text-align: justify;
 }
+.noticia{
+    border:2px solid red;
+    margin:15px;
+    padding:10px;
+    border-radius:0px 0px 10px 10px;
+}
+.noticia header{
+    margin:-10px;
+    padding-left:10px;
+    border-bottom:1px solid black;
+    background-color: red;
+    color:white;
+    font-size: x-large;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+.noticia img{
+    margin-top:20px;
+    width:30%;
+}
