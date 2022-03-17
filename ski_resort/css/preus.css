@@ -196,7 +196,7 @@ footer div h2:hover, #link_politica:hover {
 .paisos_1 img {
     width: 70px;
     height: 70px;
-    margin-left: 39%;
+    border-radius: 100px;
 }
 .paisos_1 a {
     text-decoration: none;
