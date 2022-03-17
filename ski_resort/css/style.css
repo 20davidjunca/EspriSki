@@ -94,6 +94,12 @@ ul.navbar-nav {
 }
 
 /******************************************FORMULARI************************************************/
+#contacta {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column wrap;
+}
 h3 {
     margin-left: 25px;
 }
