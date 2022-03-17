@@ -244,14 +244,14 @@ footer div h2:hover, #link_politica:hover {
 }
 .paisos_1 a {
     text-decoration: none;
-    background: red;
-    color: black;
+    background: black;
+    color: white;
     padding: 5px;
     transition: border 0.5s ease-in-out, border-radius 0.5s ease-in-out, background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .paisos_1 a:hover {
-    background: red;
-    color: white;
+    background: white;
+    color: black;
     border: 1px solid black;
     border-radius: 5px;
 }
