@@ -10,7 +10,7 @@
     
     <!-- Referencia al meu CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">  
+    <link rel="stylesheet" type="text/css" href="../css/style_resort.css">  
     <title>EspriSki Village Resort</title>
   </head>
   <body>
@@ -19,8 +19,8 @@
     -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu_pri">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="img-logo" src="img/espriski_logo.svg" alt="" width="30" height="24">
+            <a class="navbar-brand" href="../index.html">
+                <img class="img-logo" src="../img/espriski_logo_black.svg" alt="" width="30" height="24">
             </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,9 +32,9 @@
                   Resort
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="content/habitacions.html">Habitacions</a></li>
-                  <li><a class="dropdown-item" href="content/spa.html">Spa</a></li>
-                  <li><a class="dropdown-item" href="content/restaurant.html">Restaurant</a></li>
+                  <li><a class="dropdown-item" href="habitacions.html">Habitacions</a></li>
+                  <li><a class="dropdown-item" href="spa.html">Spa</a></li>
+                  <li><a class="dropdown-item" href="restaurant.html">Restaurant</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -63,10 +63,9 @@
                 <a class="nav-link" href="#">Actualitat</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacta.html">Contacte</a>
+                <a class="nav-link" href="../contacta.html">Contacte</a>
               </li>
             </ul>
-            
           </div>
         </div>
       </nav>
@@ -74,12 +73,11 @@
     <div class="container-fluid" id="slider_home">
         <div class="row">
             <div class="col-12 no-padding">
-                <img class="img-fluid no-padding" src="img/espriski_slider_home_snowboard.jpg" alt="EspriSki Snowboarding">
+                <img class="img-fluid no-padding" src="../img/espa.jpg" alt="EspriSki Snowboarding">
             </div>
-            <div id="ww_4be5647e2f916" v='1.20' loc='auto' a='{"t":"horizontal","lang":"es","ids":["wl955"],"cl_bkg":"#FFFFFF00","cl_font":"rgba(255,255,255,1)","cl_cloud":"rgba(242,242,242,1)","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial","el_whr":3}'><a href="https://weatherwidget.org/es/" id="ww_4be5647e2f916_u" target="_blank">Widget de tiempo para el sitio web de Weatherwidget.org</a></div><script async src="https://srv2.weatherwidget.org/js/?id=ww_4be5647e2f916"></script>
             <div id="h1">
-              <h1>EspriSki</h1>
-              <h5>Village Resort</h5>
+              <h1>Resort</h1>
+              <h5>SPA</h5>
             </div>
         </div>
     </div>
@@ -87,16 +85,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="img/espa.jpg" class="d-block w-100" alt="Spa">
-          <div class="carousel_text">SPA</div>
+          <img src="../img/spa_1.jpg" class="d-block w-100" alt="Spa">
         </div>
         <div class="carousel-item">
-          <img src="img/habitacion.jpg" class="d-block w-100" alt="Habitacions">
-          <div class="carousel_text">HABITACIONS</div>
+          <img src="../img/spa_2.jpg" class="d-block w-100" alt="Habitacions">
         </div>
         <div class="carousel-item">
-          <img src="img/restaurante 2.jpg" class="d-block w-100" alt="Restaurant">
-          <div class="carousel_text">RESTAURANT</div>
+          <img src="../img/spa_3.jpg" class="d-block w-100" alt="Restaurant">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -111,39 +106,37 @@
 
     <hr>
 
-  <div id="contacta">
-    <h3>Contacta amb nosaltres</h3>
-    <form method="POST" action="">
-      <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">Nom complet</label>
-      <input type="text" class="form-control" name="nom_complet" placeholder="Nom complet">
-    </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Telèfon</label>
-        <input type="tel" class="form-control" name="telefon" placeholder="Telèfon">
+    <div class="columnes">
+      <div class="columna_1">
+          <img class="columna_2" src="../img/icon-person.png">
+          <h3 class="columna_2">Massatges terapèutics</h3>
+          <p class="columna_2">
+            El massatge és la millor eina terapèutica, utilitzada desde els temps antics, com a recurs natural contra el dolor, l’estress, tensió muscular, etc…
+          </p>
+          <p class="columna_2"><a href="">A partir de 32€</a></p>
       </div>
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-      <input type="email" class="form-control" placeholder="E-mail">
+      <div class="columna_1">
+          <img class="columna_2" src="../img/icon-face.png">
+          <h3 class="columna_2">Tractaments Facials</h3>
+          <p class="columna_2">
+            A EspriSki som experts en Tractaments facials d’alta estética, per aixó respetem i mimem la teva pell, amb les millors tecnologies i les últimes novetats del moment.
+          </p>
+          <p class="columna_2"><a href="">A partir de 42€</a></p>
+      </div>
+      <div class="columna_1">
+        <img class="columna_2" src="../img/icon-rock.png">
+        <h3 class="columna_2">Tractaments corporals</h3>
+        <p class="columna_2">
+          A EspriSki realitzem tot tipus de tractaments corporals, sempre depenent de las necesitats de cada tipus de pell.
+        </p>
+        <p class="columna_2"><a href="">A partir de 52€</a></p>
     </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Missatge</label>
-      <textarea class="form-control" rows="3"></textarea>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" required="required" value="" id="flexCheckDefault">
-      <label class="form-check-label" for="flexCheckDefault">
-        He llegit i accepto la política de privacitat
-      </label>
-    </div><br>
-    <input type="submit" name="enviar" value="Envia">
-  </form>
   </div>
 
     <footer>
       <div class="col-3">
         <a class="navbar-brand" href="#">
-          <img class="img-logo" src="img/espriski_logo.svg" alt="" width="30" height="24">
+          <img class="img-logo" src="../img/espriski_logo.svg" alt="" width="30" height="24">
       </a>
       <h2>Dades</h2>
       <p>Adreça: Passeig de Sant Joan Bosco, 1, 17007</p>
