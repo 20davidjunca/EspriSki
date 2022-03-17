@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- Referencia al meu CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/actualitat.css">  
+    <title>EspriSki Village Resort</title>
+  </head>
+  <body>
+    <!--
+        MENÚ PRINCIPAL DE LA WEB
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu_pri">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-logo" src="img/espriski_logo_black.svg" alt="" width="30" height="24">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resort
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="content/habitacions.html">Habitacions</a></li>
+                  <li><a class="dropdown-item" href="content/spa.html">Spa</a></li>
+                  <li><a class="dropdown-item" href="content/restaurant.html">Restaurant</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Activitats
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="content/esqui.html">Esquí</a></li>
+                  <li><a class="dropdown-item" href="content/snowboard.html">Snowboard</a></li>
+                  <li><a class="dropdown-item" href="content/raquetes.html">Raquetes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="preus.html">Preus</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Serveis
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="content/parking.html">Parking</a></li>
+                  <li><a class="dropdown-item" href="content/guardaesquis.html">Guarda Esquís</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Actualitat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacte</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <div id="contacta">
+        <div class="container-fluid" id="slider_home">
+            <div class="row">
+                <div class="col-12 no-padding">
+                    <img class="img-fluid no-padding" src="img/espriski_slider_contacta.jpg" alt="EspriSki Snowboarding">
+                </div>
+                <div id="h1">
+                  <h1>Contacta</h1>
+                  <h5>amb nosaltres</h5>
+                </div>
+            </div>
+        </div>
+        <form method="POST" action="">
+          <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nom complet</label>
+          <input type="text" class="form-control" name="nom_complet" placeholder="Nom complet">
+        </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Telèfon</label>
+            <input type="tel" class="form-control" name="telefon" placeholder="Telèfon">
+          </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+          <input type="email" class="form-control" placeholder="E-mail">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Missatge</label>
+          <textarea class="form-control" rows="3"></textarea>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" required="required" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            He llegit i accepto la <a href="politica.html" target="_blank">política de privacitat</a>
+          </label>
+        </div><br>
+        <input type="submit" name="enviar" value="Envia">
+      </form>
+    
+  <!--MAPA-->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d279585.9065407019!2d1.4722001262164945!3d42.60257699852031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12af7d8c885e2719%3A0xa00947091997250!2sAD200%20El%20Pas%20de%20la%20Casa%2C%20Andorra!5e0!3m2!1ses!2ses!4v1646320142018!5m2!1ses!2ses" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
+
+      </div>
+    
+        <footer>
+          <div class="col-6">
+            <a class="navbar-brand" href="#">
+              <img class="img-logo" src="img/espriski_logo.svg" alt="" width="30" height="24">
+          </a>
+          <h2>Dades</h2>
+          <p>Adreça: Passeig de Sant Joan Bosco, 1, 17007</p>
+          <p>Telefón: 972 21 26 12</p>
+          <p>Mail: 20david.junca@espriusalt.cat</p>
+          </div>
+          <div class="col-6 xarxes">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Espri Ski</a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Espri_Ski</a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i> @espri_ski</a>
+            <a href="https://web.whatsapp.com" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> espriu ski</a>
+          </div>
+        </footer>
+        <div id="bottom-footer">
+          <div class="col-12">
+            <a id="link_politica" href="politica.html" target="_blank">Salvador Espriu &copy; 2022 | Política de privacitat | Avís legal | Cookies</a>
+          </div>
+          <a href="#">
+            <div class="top_button">
+              <i id="top_button" class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+        <!-- Optional JavaScript; choose one of the two! -->
+    
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>
