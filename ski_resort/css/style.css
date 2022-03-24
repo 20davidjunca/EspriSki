@@ -52,7 +52,7 @@ ul.navbar-nav {
 }
 #menu_pri {
     position: fixed;
-    background: transparent !important;
+    background: rgba(0,0,0,0.5) !important;
     border-bottom: 1px solid #fff;
     width: 100%;
     z-index: 1;
