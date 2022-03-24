@@ -205,10 +205,7 @@ footer div a p:hover, #link_politica:hover {
     display: flex;
     flex-flow: row nowrap;
 }
-.content .contingut {
-    display: flex;
-    flex-flow: column wrap;
-}
 .contingut {
     padding: 20px;
+    padding-bottom: 0px;
 }
