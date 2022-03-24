@@ -72,7 +72,7 @@ ul.navbar-nav {
 }
 /*MENÚ PER MOVIL*/
 .navbar-light .navbar-toggler-icon {
-    background-image: url('../img/ham_menu_logo_black.svg') !important;
+    background-image: url('../img/ham_menu_logo.svg') !important;
 }
 
 /*WIDGET i H1*/
