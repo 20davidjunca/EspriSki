@@ -178,6 +178,8 @@ footer div a p:hover, #link_politica:hover {
     margin: 20px;
     text-align: justify;
 }
+
+
 .noticia{
     border:2px solid black;
     margin:15px;
@@ -192,9 +194,17 @@ footer div a p:hover, #link_politica:hover {
     color:white;
     font-size: x-large;
     font-weight: 400;
-    font-family: 'Montserrat';
 }
 .noticia img{
     margin-top:20px;
     width:30%;
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.contingut {
+    padding: 20px;
 }
